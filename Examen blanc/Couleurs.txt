@@ -1,0 +1,3 @@
+Dégradé : rgb(82, 67, 170) et rgb(237, 80, 180)
+Bleu clair : rgb(0, 101, 255)
+Bleu foncé : rgb(23, 43, 77)

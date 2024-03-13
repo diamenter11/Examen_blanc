@@ -1,0 +1,234 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.links{
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.links a{
+    margin-left: 10px;
+}
+.login-button{
+    position: flex;
+    flex-direction: row-reverse;
+    right: 0;margin-left: 600px;
+}
+.login-button button{
+    border-radius: 0%;
+}
+.logo{
+    margin-left: 100px;
+}
+
+
+/* landing section */
+.landing{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(82, 67, 170), rgb(237, 80, 180));
+
+}
+.landing .containt{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.landing .text{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.landing .image{
+
+    width: 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Images/banner-1.png);
+}
+.text p{
+    color: white;
+}
+.text h1{
+    color: white;
+}
+
+/* section 101 */
+.up{
+    width: 50%;
+}
+.trello {
+justify-content: center;
+align-items: center;
+
+}
+.trello .containt{
+    width: 80%;
+    margin: auto;
+
+    
+}
+.banner2{
+    width: 80%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Images/banner-2.png);
+}
+.down{
+    display: flex;
+    flex-direction: row;
+}
+.boards{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+        justify-content: space-between; /* Adjust as needed: space-between, space-around, etc. */
+        align-items: center;
+}
+.trello101{
+    margin-top: 20px;
+}
+
+/* contact form section */
+.contact{
+    height: 500px;
+    position: relative;
+    background-color:rgb(23, 43, 77) ; 
+
+    display: flex;
+    justify-content: center;
+}
+.contact form{
+    position: relative;
+    width: 40%;
+    margin: auto;
+    
+
+flex-direction: column;
+}
+.form-group row{
+    margin: auto;
+}
+.contact button{
+  width: 83%;
+  position: absolute;
+  right: 0;
+}
+.contact p{
+    color: white;
+    position:relative;
+    margin: auto;
+    justify-self: center;
+}
+.contact label{
+    color: white;
+}
+/* section partenaire */
+
+.partenairs{
+    text-align: center;
+}
+.partenairs p{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.partenairs .containt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+/* last section */
+.last-section{
+    background: linear-gradient(to right, rgb(82, 67, 170), rgb(237, 80, 180));
+
+    height: 333px;
+    display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+}
+.last-section .left{
+    position: absolute;
+    left: 0;
+
+
+}
+.last-section .right{
+    position: absolute;
+    right: 0;
+
+
+}
+.last-section .middle{
+    margin: auto;
+
+
+}
+.last-section .middle h1{
+    color: white;
+}
+
+/* lastlast */
+.lastlast{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:rgb(23, 43, 77) ; 
+
+}
+.lastlast .containt{
+    display: flex;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    margin-left: 500px;
+    width: 70%;
+
+
+
+    
+}
+.lastlast .one{
+    width: 13%;
+display: flex;
+flex-direction: column;
+
+
+}
+.lastlast .two{
+    width: 13%;
+
+    display: flex;
+flex-direction: column;
+}
+.lastlast .three{
+    width: 13%;
+
+    display: flex;
+flex-direction: column;
+}
+.lastlast .four{
+    width: 13%;
+
+    display: flex;
+flex-direction: column;
+}
+.lastlast .containt p{
+    color: white;
+}
